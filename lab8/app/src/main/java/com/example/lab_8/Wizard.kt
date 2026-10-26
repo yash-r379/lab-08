@@ -1,5 +1,6 @@
 package com.example.lab_8
 
+// small change just to check the CI runs
 class Wizard(val name: String, var mana: Int, var spellPower: Int) {
     fun castSpell(spell: String): Int {
         when (spell) {
