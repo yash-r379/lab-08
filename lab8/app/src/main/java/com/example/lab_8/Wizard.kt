@@ -1,6 +1,5 @@
 package com.example.lab_8
 
-// testing ci again
 class Wizard(val name: String, var mana: Int, var spellPower: Int) {
     fun castSpell(spell: String): Int {
         when (spell) {
@@ -21,4 +20,6 @@ class Wizard(val name: String, var mana: Int, var spellPower: Int) {
             }
         }
     }
+
+    fun restoreMana(amount: Int) { }
 }
